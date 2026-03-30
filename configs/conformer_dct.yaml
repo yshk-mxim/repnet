@@ -1,0 +1,36 @@
+# Conformer + DCT initialization (headline config)
+#
+# Hybrid Conv-Conformer with deterministic DCT initialization and ETF heads.
+# Stages 0-2: bottleneck conv blocks with LayerNorm
+# Stage 3: ConformerBlock1d (conv + local attention)
+#
+# Expected: ~0.939 macro AUC on PTB-XL rhythm classification
+
+name: conformer_dct
+model: conformer
+
+# Architecture
+base_ch: 64
+ks: 5
+blocks: "3,4,23,3"
+bn_dim: 14           # K+2 = 12 classes + 2 extra dimensions
+
+# Initialization
+det_init: true        # DCT initialization (seed-free)
+etf_init: true        # ETF classifier head initialization
+
+# Training
+no_morph: true        # Conformer does not use morphing (no MorphedGELU)
+epochs_p1: 15
+epochs_p3: 70
+lr: 3e-4
+bs: 128
+seed: 42
+
+# Determinism
+bf16: false
+cudnn_bench: false
+
+# Loss
+class_weight: ""
+focal_gamma: 0.0

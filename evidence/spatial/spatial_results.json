@@ -1,0 +1,10 @@
+{
+  "v9m": {
+    "has_spatial_bn": true,
+    "n_analyzed": 50
+  },
+  "baseline": {
+    "has_spatial_bn": false,
+    "n_analyzed": 50
+  }
+}

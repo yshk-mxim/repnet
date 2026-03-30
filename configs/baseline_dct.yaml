@@ -1,0 +1,34 @@
+# Baseline CNN + DCT initialization
+#
+# Standard residual CNN with BatchNorm + ReLU + MaxPool + Dropout.
+# Uses DCT initialization instead of Kaiming to demonstrate that
+# deterministic init works even with a conventional architecture.
+#
+# Expected: ~0.910 macro AUC on PTB-XL rhythm classification
+
+name: baseline_dct
+model: baseline
+
+# Architecture
+base_ch: 64
+ks: 5
+
+# Initialization
+det_init: true        # DCT initialization (seed-free)
+fixup_scale: 0.0
+
+# Training — standard (no morphing, BaselineCNN has no MorphedGELU)
+no_morph: true
+epochs_p1: 0
+epochs_p3: 50
+lr: 1e-3
+bs: 128
+seed: 42
+
+# Determinism
+bf16: false
+cudnn_bench: false
+
+# Loss
+class_weight: ""
+focal_gamma: 0.0

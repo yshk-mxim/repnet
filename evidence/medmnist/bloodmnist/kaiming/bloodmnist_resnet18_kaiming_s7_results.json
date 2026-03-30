@@ -1,0 +1,26 @@
+{
+  "dataset": "bloodmnist",
+  "arch": "resnet18",
+  "init": "kaiming",
+  "seed": 7,
+  "bn_dim": null,
+  "num_classes": 8,
+  "best_acc": 0.9822,
+  "best_auc": 0.9988,
+  "per_class_auc": [
+    0.9995,
+    0.9997,
+    0.9999,
+    0.9964,
+    0.9998,
+    0.9975,
+    0.9978,
+    1.0
+  ],
+  "batch_order": "seeded",
+  "best_ep": 170,
+  "params": 11172936,
+  "init_md5": "3cc28ee63417835cc7f7a9fe6e7864f6",
+  "final_md5": "bc0aab3ffb229aa924f0389c7360c7a5",
+  "time": 6289.6
+}

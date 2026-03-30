@@ -1,0 +1,38 @@
+[project]
+name = "repnet"
+version = "1.0.0"
+description = "Bit-Identical Deep Learning via Structured Orthogonal Initialization"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Yakov P. Shkolnikov", email = "yshkolni@gmail.com"}]
+dependencies = [
+    "torch>=2.1.0",
+    "torchvision>=0.16.0",
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "scikit-learn>=1.3.0",
+    "scipy>=1.11.0",
+    "wfdb>=4.1.0",
+]
+
+[project.optional-dependencies]
+medmnist = ["medmnist>=3.0.0"]
+figures = ["matplotlib>=3.7.0"]
+all = ["repnet[medmnist,figures]"]
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["repnet*"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+
+[tool.ruff.lint.per-file-ignores]
+"experiments/*.py" = ["E402"]

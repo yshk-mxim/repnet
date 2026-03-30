@@ -1,0 +1,2202 @@
+{
+  "best_conformer_dct_s42.pt": {
+    "synthetic_ood": {
+      "flat_leadoff": {
+        "max_logit": 0.8968,
+        "entropy": 0.8712,
+        "energy": 0.9031,
+        "bn_norm": 0.1212,
+        "ood_proj": 0.2239
+      },
+      "gaussian": {
+        "max_logit": 0.4241,
+        "entropy": 0.7843,
+        "energy": 0.4243,
+        "bn_norm": 0.0867,
+        "ood_proj": 0.0046
+      },
+      "muscle_artifact": {
+        "max_logit": 0.4924,
+        "entropy": 0.8941,
+        "energy": 0.4817,
+        "bn_norm": 0.0407,
+        "ood_proj": 0.0044
+      },
+      "emi": {
+        "max_logit": 0.7898,
+        "entropy": 0.9239,
+        "energy": 0.7853,
+        "bn_norm": 0.0832,
+        "ood_proj": 0.1406
+      },
+      "corrupted_ecg": {
+        "max_logit": 0.5535,
+        "entropy": 0.7923,
+        "energy": 0.5558,
+        "bn_norm": 0.0848,
+        "ood_proj": 0.0115
+      }
+    },
+    "noise_robustness": {
+      "clean_auc": 0.9441,
+      "noise": {
+        "baseline_wander": {
+          "snr_24dB": {
+            "auc": 0.945,
+            "drop": -0.0009
+          },
+          "snr_18dB": {
+            "auc": 0.9441,
+            "drop": -0.0
+          },
+          "snr_12dB": {
+            "auc": 0.9395,
+            "drop": 0.0046
+          },
+          "snr_6dB": {
+            "auc": 0.9351,
+            "drop": 0.0089
+          },
+          "snr_0dB": {
+            "auc": 0.8943,
+            "drop": 0.0497
+          }
+        },
+        "muscle_artifact_real": {
+          "snr_24dB": {
+            "auc": 0.9421,
+            "drop": 0.002
+          },
+          "snr_18dB": {
+            "auc": 0.9438,
+            "drop": 0.0003
+          },
+          "snr_12dB": {
+            "auc": 0.9394,
+            "drop": 0.0046
+          },
+          "snr_6dB": {
+            "auc": 0.933,
+            "drop": 0.011
+          },
+          "snr_0dB": {
+            "auc": 0.8792,
+            "drop": 0.0649
+          }
+        },
+        "electrode_motion": {
+          "snr_24dB": {
+            "auc": 0.9477,
+            "drop": -0.0037
+          },
+          "snr_18dB": {
+            "auc": 0.9504,
+            "drop": -0.0064
+          },
+          "snr_12dB": {
+            "auc": 0.9458,
+            "drop": -0.0017
+          },
+          "snr_6dB": {
+            "auc": 0.9223,
+            "drop": 0.0217
+          },
+          "snr_0dB": {
+            "auc": 0.8549,
+            "drop": 0.0891
+          }
+        }
+      }
+    }
+  },
+  "best_conformer_dct_s123.pt": {
+    "synthetic_ood": {
+      "flat_leadoff": {
+        "max_logit": 0.8377,
+        "entropy": 0.8747,
+        "energy": 0.8372,
+        "bn_norm": 0.0863,
+        "ood_proj": 0.0978
+      },
+      "gaussian": {
+        "max_logit": 0.9369,
+        "entropy": 0.9589,
+        "energy": 0.928,
+        "bn_norm": 0.0375,
+        "ood_proj": 0.0278
+      },
+      "muscle_artifact": {
+        "max_logit": 0.7257,
+        "entropy": 0.9359,
+        "energy": 0.7116,
+        "bn_norm": 0.0367,
+        "ood_proj": 0.0099
+      },
+      "emi": {
+        "max_logit": 0.8181,
+        "entropy": 0.8993,
+        "energy": 0.8099,
+        "bn_norm": 0.0821,
+        "ood_proj": 0.0906
+      },
+      "corrupted_ecg": {
+        "max_logit": 0.9173,
+        "entropy": 0.9415,
+        "energy": 0.917,
+        "bn_norm": 0.0429,
+        "ood_proj": 0.0328
+      }
+    },
+    "noise_robustness": {
+      "clean_auc": 0.9567,
+      "noise": {
+        "baseline_wander": {
+          "snr_24dB": {
+            "auc": 0.9567,
+            "drop": 0.0
+          },
+          "snr_18dB": {
+            "auc": 0.9553,
+            "drop": 0.0014
+          },
+          "snr_12dB": {
+            "auc": 0.9495,
+            "drop": 0.0072
+          },
+          "snr_6dB": {
+            "auc": 0.9315,
+            "drop": 0.0253
+          },
+          "snr_0dB": {
+            "auc": 0.8929,
+            "drop": 0.0638
+          }
+        },
+        "muscle_artifact_real": {
+          "snr_24dB": {
+            "auc": 0.9565,
+            "drop": 0.0003
+          },
+          "snr_18dB": {
+            "auc": 0.9557,
+            "drop": 0.0011
+          },
+          "snr_12dB": {
+            "auc": 0.9509,
+            "drop": 0.0059
+          },
+          "snr_6dB": {
+            "auc": 0.9361,
+            "drop": 0.0206
+          },
+          "snr_0dB": {
+            "auc": 0.8691,
+            "drop": 0.0877
+          }
+        },
+        "electrode_motion": {
+          "snr_24dB": {
+            "auc": 0.9577,
+            "drop": -0.001
+          },
+          "snr_18dB": {
+            "auc": 0.9567,
+            "drop": 0.0001
+          },
+          "snr_12dB": {
+            "auc": 0.9547,
+            "drop": 0.002
+          },
+          "snr_6dB": {
+            "auc": 0.9397,
+            "drop": 0.0171
+          },
+          "snr_0dB": {
+            "auc": 0.8576,
+            "drop": 0.0992
+          }
+        }
+      }
+    }
+  },
+  "best_conformer_dct_s456.pt": {
+    "synthetic_ood": {
+      "flat_leadoff": {
+        "max_logit": 0.8002,
+        "entropy": 0.6961,
+        "energy": 0.8209,
+        "bn_norm": 0.2992,
+        "ood_proj": 0.2223
+      },
+      "gaussian": {
+        "max_logit": 0.6242,
+        "entropy": 0.9007,
+        "energy": 0.6271,
+        "bn_norm": 0.0891,
+        "ood_proj": 0.0086
+      },
+      "muscle_artifact": {
+        "max_logit": 0.8232,
+        "entropy": 0.9329,
+        "energy": 0.8034,
+        "bn_norm": 0.0724,
+        "ood_proj": 0.0118
+      },
+      "emi": {
+        "max_logit": 0.8801,
+        "entropy": 0.9055,
+        "energy": 0.8793,
+        "bn_norm": 0.2072,
+        "ood_proj": 0.1249
+      },
+      "corrupted_ecg": {
+        "max_logit": 0.7344,
+        "entropy": 0.9318,
+        "energy": 0.7358,
+        "bn_norm": 0.0712,
+        "ood_proj": 0.0127
+      }
+    },
+    "noise_robustness": {
+      "clean_auc": 0.9503,
+      "noise": {
+        "baseline_wander": {
+          "snr_24dB": {
+            "auc": 0.9506,
+            "drop": -0.0003
+          },
+          "snr_18dB": {
+            "auc": 0.9507,
+            "drop": -0.0004
+          },
+          "snr_12dB": {
+            "auc": 0.95,
+            "drop": 0.0003
+          },
+          "snr_6dB": {
+            "auc": 0.9425,
+            "drop": 0.0077
+          },
+          "snr_0dB": {
+            "auc": 0.9085,
+            "drop": 0.0418
+          }
+        },
+        "muscle_artifact_real": {
+          "snr_24dB": {
+            "auc": 0.9501,
+            "drop": 0.0001
+          },
+          "snr_18dB": {
+            "auc": 0.9508,
+            "drop": -0.0005
+          },
+          "snr_12dB": {
+            "auc": 0.9506,
+            "drop": -0.0004
+          },
+          "snr_6dB": {
+            "auc": 0.9476,
+            "drop": 0.0027
+          },
+          "snr_0dB": {
+            "auc": 0.9106,
+            "drop": 0.0397
+          }
+        },
+        "electrode_motion": {
+          "snr_24dB": {
+            "auc": 0.9503,
+            "drop": -0.0
+          },
+          "snr_18dB": {
+            "auc": 0.9493,
+            "drop": 0.0009
+          },
+          "snr_12dB": {
+            "auc": 0.9494,
+            "drop": 0.0009
+          },
+          "snr_6dB": {
+            "auc": 0.9414,
+            "drop": 0.0089
+          },
+          "snr_0dB": {
+            "auc": 0.8708,
+            "drop": 0.0794
+          }
+        }
+      }
+    }
+  },
+  "best_conformer_dct_s789.pt": {
+    "synthetic_ood": {
+      "flat_leadoff": {
+        "max_logit": 0.8798,
+        "entropy": 0.8015,
+        "energy": 0.9028,
+        "bn_norm": 0.1992,
+        "ood_proj": 0.2221
+      },
+      "gaussian": {
+        "max_logit": 0.8288,
+        "entropy": 0.9918,
+        "energy": 0.5873,
+        "bn_norm": 0.0169,
+        "ood_proj": 0.0079
+      },
+      "muscle_artifact": {
+        "max_logit": 0.7292,
+        "entropy": 0.9735,
+        "energy": 0.6927,
+        "bn_norm": 0.024,
+        "ood_proj": 0.0086
+      },
+      "emi": {
+        "max_logit": 0.8783,
+        "entropy": 0.8996,
+        "energy": 0.851,
+        "bn_norm": 0.1334,
+        "ood_proj": 0.1441
+      },
+      "corrupted_ecg": {
+        "max_logit": 0.8189,
+        "entropy": 0.9915,
+        "energy": 0.5874,
+        "bn_norm": 0.0172,
+        "ood_proj": 0.0082
+      }
+    },
+    "noise_robustness": {
+      "clean_auc": 0.9503,
+      "noise": {
+        "baseline_wander": {
+          "snr_24dB": {
+            "auc": 0.9499,
+            "drop": 0.0004
+          },
+          "snr_18dB": {
+            "auc": 0.9498,
+            "drop": 0.0005
+          },
+          "snr_12dB": {
+            "auc": 0.9493,
+            "drop": 0.001
+          },
+          "snr_6dB": {
+            "auc": 0.9413,
+            "drop": 0.009
+          },
+          "snr_0dB": {
+            "auc": 0.8941,
+            "drop": 0.0562
+          }
+        },
+        "muscle_artifact_real": {
+          "snr_24dB": {
+            "auc": 0.9492,
+            "drop": 0.0011
+          },
+          "snr_18dB": {
+            "auc": 0.9479,
+            "drop": 0.0024
+          },
+          "snr_12dB": {
+            "auc": 0.9468,
+            "drop": 0.0035
+          },
+          "snr_6dB": {
+            "auc": 0.9385,
+            "drop": 0.0118
+          },
+          "snr_0dB": {
+            "auc": 0.8882,
+            "drop": 0.0621
+          }
+        },
+        "electrode_motion": {
+          "snr_24dB": {
+            "auc": 0.9499,
+            "drop": 0.0004
+          },
+          "snr_18dB": {
+            "auc": 0.9502,
+            "drop": 0.0001
+          },
+          "snr_12dB": {
+            "auc": 0.9492,
+            "drop": 0.0011
+          },
+          "snr_6dB": {
+            "auc": 0.9348,
+            "drop": 0.0155
+          },
+          "snr_0dB": {
+            "auc": 0.8785,
+            "drop": 0.0718
+          }
+        }
+      }
+    }
+  },
+  "best_conformer_dct_s1337.pt": {
+    "synthetic_ood": {
+      "flat_leadoff": {
+        "max_logit": 0.9459,
+        "entropy": 0.8891,
+        "energy": 0.9563,
+        "bn_norm": 0.1393,
+        "ood_proj": 0.1511
+      },
+      "gaussian": {
+        "max_logit": 0.854,
+        "entropy": 0.9923,
+        "energy": 0.7455,
+        "bn_norm": 0.0248,
+        "ood_proj": 0.0088
+      },
+      "muscle_artifact": {
+        "max_logit": 0.7009,
+        "entropy": 0.875,
+        "energy": 0.7041,
+        "bn_norm": 0.0594,
+        "ood_proj": 0.0506
+      },
+      "emi": {
+        "max_logit": 0.8869,
+        "entropy": 0.8863,
+        "energy": 0.8963,
+        "bn_norm": 0.1242,
+        "ood_proj": 0.1527
+      },
+      "corrupted_ecg": {
+        "max_logit": 0.7975,
+        "entropy": 0.9255,
+        "energy": 0.7811,
+        "bn_norm": 0.0577,
+        "ood_proj": 0.0753
+      }
+    },
+    "noise_robustness": {
+      "clean_auc": 0.952,
+      "noise": {
+        "baseline_wander": {
+          "snr_24dB": {
+            "auc": 0.9515,
+            "drop": 0.0005
+          },
+          "snr_18dB": {
+            "auc": 0.9496,
+            "drop": 0.0025
+          },
+          "snr_12dB": {
+            "auc": 0.9419,
+            "drop": 0.0101
+          },
+          "snr_6dB": {
+            "auc": 0.9325,
+            "drop": 0.0195
+          },
+          "snr_0dB": {
+            "auc": 0.8919,
+            "drop": 0.0602
+          }
+        },
+        "muscle_artifact_real": {
+          "snr_24dB": {
+            "auc": 0.9523,
+            "drop": -0.0003
+          },
+          "snr_18dB": {
+            "auc": 0.9519,
+            "drop": 0.0001
+          },
+          "snr_12dB": {
+            "auc": 0.9486,
+            "drop": 0.0035
+          },
+          "snr_6dB": {
+            "auc": 0.9377,
+            "drop": 0.0143
+          },
+          "snr_0dB": {
+            "auc": 0.8917,
+            "drop": 0.0603
+          }
+        },
+        "electrode_motion": {
+          "snr_24dB": {
+            "auc": 0.951,
+            "drop": 0.0011
+          },
+          "snr_18dB": {
+            "auc": 0.949,
+            "drop": 0.0031
+          },
+          "snr_12dB": {
+            "auc": 0.9447,
+            "drop": 0.0074
+          },
+          "snr_6dB": {
+            "auc": 0.9094,
+            "drop": 0.0427
+          },
+          "snr_0dB": {
+            "auc": 0.8367,
+            "drop": 0.1154
+          }
+        }
+      }
+    }
+  },
+  "best_conformer_hadamard_s42.pt": {
+    "synthetic_ood": {
+      "flat_leadoff": {
+        "max_logit": 0.8355,
+        "entropy": 0.8308,
+        "energy": 0.8489,
+        "bn_norm": 0.1708,
+        "ood_proj": 0.2014
+      },
+      "gaussian": {
+        "max_logit": 0.8138,
+        "entropy": 0.9892,
+        "energy": 0.7296,
+        "bn_norm": 0.0138,
+        "ood_proj": 0.0062
+      },
+      "muscle_artifact": {
+        "max_logit": 0.7561,
+        "entropy": 0.9826,
+        "energy": 0.7375,
+        "bn_norm": 0.0153,
+        "ood_proj": 0.0132
+      },
+      "emi": {
+        "max_logit": 0.8248,
+        "entropy": 0.8488,
+        "energy": 0.7914,
+        "bn_norm": 0.1154,
+        "ood_proj": 0.1127
+      },
+      "corrupted_ecg": {
+        "max_logit": 0.8077,
+        "entropy": 0.991,
+        "energy": 0.7207,
+        "bn_norm": 0.0115,
+        "ood_proj": 0.0063
+      }
+    },
+    "noise_robustness": {
+      "clean_auc": 0.9619,
+      "noise": {
+        "baseline_wander": {
+          "snr_24dB": {
+            "auc": 0.9614,
+            "drop": 0.0005
+          },
+          "snr_18dB": {
+            "auc": 0.9609,
+            "drop": 0.0011
+          },
+          "snr_12dB": {
+            "auc": 0.9586,
+            "drop": 0.0033
+          },
+          "snr_6dB": {
+            "auc": 0.9497,
+            "drop": 0.0122
+          },
+          "snr_0dB": {
+            "auc": 0.9299,
+            "drop": 0.032
+          }
+        },
+        "muscle_artifact_real": {
+          "snr_24dB": {
+            "auc": 0.9617,
+            "drop": 0.0003
+          },
+          "snr_18dB": {
+            "auc": 0.9615,
+            "drop": 0.0004
+          },
+          "snr_12dB": {
+            "auc": 0.9614,
+            "drop": 0.0005
+          },
+          "snr_6dB": {
+            "auc": 0.9581,
+            "drop": 0.0038
+          },
+          "snr_0dB": {
+            "auc": 0.9308,
+            "drop": 0.0311
+          }
+        },
+        "electrode_motion": {
+          "snr_24dB": {
+            "auc": 0.9612,
+            "drop": 0.0007
+          },
+          "snr_18dB": {
+            "auc": 0.9606,
+            "drop": 0.0013
+          },
+          "snr_12dB": {
+            "auc": 0.9569,
+            "drop": 0.0051
+          },
+          "snr_6dB": {
+            "auc": 0.9434,
+            "drop": 0.0186
+          },
+          "snr_0dB": {
+            "auc": 0.9062,
+            "drop": 0.0557
+          }
+        }
+      }
+    }
+  },
+  "best_conformer_hadamard_s123.pt": {
+    "synthetic_ood": {
+      "flat_leadoff": {
+        "max_logit": 0.8594,
+        "entropy": 0.8512,
+        "energy": 0.8629,
+        "bn_norm": 0.1713,
+        "ood_proj": 0.1213
+      },
+      "gaussian": {
+        "max_logit": 0.5777,
+        "entropy": 0.9764,
+        "energy": 0.4341,
+        "bn_norm": 0.0354,
+        "ood_proj": 0.0008
+      },
+      "muscle_artifact": {
+        "max_logit": 0.0322,
+        "entropy": 0.9003,
+        "energy": 0.0296,
+        "bn_norm": 0.0572,
+        "ood_proj": 0.0097
+      },
+      "emi": {
+        "max_logit": 0.7691,
+        "entropy": 0.8798,
+        "energy": 0.7184,
+        "bn_norm": 0.1133,
+        "ood_proj": 0.072
+      },
+      "corrupted_ecg": {
+        "max_logit": 0.4646,
+        "entropy": 0.9592,
+        "energy": 0.373,
+        "bn_norm": 0.0444,
+        "ood_proj": 0.0077
+      }
+    },
+    "noise_robustness": {
+      "clean_auc": 0.9633,
+      "noise": {
+        "baseline_wander": {
+          "snr_24dB": {
+            "auc": 0.9639,
+            "drop": -0.0006
+          },
+          "snr_18dB": {
+            "auc": 0.9641,
+            "drop": -0.0008
+          },
+          "snr_12dB": {
+            "auc": 0.9626,
+            "drop": 0.0007
+          },
+          "snr_6dB": {
+            "auc": 0.9574,
+            "drop": 0.0059
+          },
+          "snr_0dB": {
+            "auc": 0.9209,
+            "drop": 0.0424
+          }
+        },
+        "muscle_artifact_real": {
+          "snr_24dB": {
+            "auc": 0.9639,
+            "drop": -0.0006
+          },
+          "snr_18dB": {
+            "auc": 0.964,
+            "drop": -0.0007
+          },
+          "snr_12dB": {
+            "auc": 0.9627,
+            "drop": 0.0006
+          },
+          "snr_6dB": {
+            "auc": 0.9579,
+            "drop": 0.0054
+          },
+          "snr_0dB": {
+            "auc": 0.9232,
+            "drop": 0.04
+          }
+        },
+        "electrode_motion": {
+          "snr_24dB": {
+            "auc": 0.9626,
+            "drop": 0.0007
+          },
+          "snr_18dB": {
+            "auc": 0.9624,
+            "drop": 0.0009
+          },
+          "snr_12dB": {
+            "auc": 0.9596,
+            "drop": 0.0037
+          },
+          "snr_6dB": {
+            "auc": 0.9495,
+            "drop": 0.0138
+          },
+          "snr_0dB": {
+            "auc": 0.8945,
+            "drop": 0.0688
+          }
+        }
+      }
+    }
+  },
+  "best_conformer_hadamard_s456.pt": {
+    "synthetic_ood": {
+      "flat_leadoff": {
+        "max_logit": 0.9236,
+        "entropy": 0.871,
+        "energy": 0.9411,
+        "bn_norm": 0.1273,
+        "ood_proj": 0.1412
+      },
+      "gaussian": {
+        "max_logit": 0.8318,
+        "entropy": 0.941,
+        "energy": 0.7439,
+        "bn_norm": 0.0495,
+        "ood_proj": 0.004
+      },
+      "muscle_artifact": {
+        "max_logit": 0.7088,
+        "entropy": 0.9875,
+        "energy": 0.6849,
+        "bn_norm": 0.0172,
+        "ood_proj": 0.0112
+      },
+      "emi": {
+        "max_logit": 0.8694,
+        "entropy": 0.9179,
+        "energy": 0.8172,
+        "bn_norm": 0.0791,
+        "ood_proj": 0.0511
+      },
+      "corrupted_ecg": {
+        "max_logit": 0.8273,
+        "entropy": 0.9366,
+        "energy": 0.7642,
+        "bn_norm": 0.0554,
+        "ood_proj": 0.0054
+      }
+    },
+    "noise_robustness": {
+      "clean_auc": 0.9488,
+      "noise": {
+        "baseline_wander": {
+          "snr_24dB": {
+            "auc": 0.9481,
+            "drop": 0.0006
+          },
+          "snr_18dB": {
+            "auc": 0.9477,
+            "drop": 0.0011
+          },
+          "snr_12dB": {
+            "auc": 0.9482,
+            "drop": 0.0006
+          },
+          "snr_6dB": {
+            "auc": 0.945,
+            "drop": 0.0038
+          },
+          "snr_0dB": {
+            "auc": 0.9288,
+            "drop": 0.02
+          }
+        },
+        "muscle_artifact_real": {
+          "snr_24dB": {
+            "auc": 0.9497,
+            "drop": -0.0009
+          },
+          "snr_18dB": {
+            "auc": 0.9507,
+            "drop": -0.0019
+          },
+          "snr_12dB": {
+            "auc": 0.9528,
+            "drop": -0.004
+          },
+          "snr_6dB": {
+            "auc": 0.9499,
+            "drop": -0.0011
+          },
+          "snr_0dB": {
+            "auc": 0.9269,
+            "drop": 0.0219
+          }
+        },
+        "electrode_motion": {
+          "snr_24dB": {
+            "auc": 0.9507,
+            "drop": -0.0019
+          },
+          "snr_18dB": {
+            "auc": 0.9518,
+            "drop": -0.003
+          },
+          "snr_12dB": {
+            "auc": 0.9524,
+            "drop": -0.0036
+          },
+          "snr_6dB": {
+            "auc": 0.9476,
+            "drop": 0.0012
+          },
+          "snr_0dB": {
+            "auc": 0.9022,
+            "drop": 0.0466
+          }
+        }
+      }
+    }
+  },
+  "best_conformer_hadamard_s789.pt": {
+    "synthetic_ood": {
+      "flat_leadoff": {
+        "max_logit": 0.9108,
+        "entropy": 0.8854,
+        "energy": 0.9155,
+        "bn_norm": 0.0737,
+        "ood_proj": 0.1199
+      },
+      "gaussian": {
+        "max_logit": 0.8896,
+        "entropy": 0.9862,
+        "energy": 0.8531,
+        "bn_norm": 0.0126,
+        "ood_proj": 0.003
+      },
+      "muscle_artifact": {
+        "max_logit": 0.92,
+        "entropy": 0.9572,
+        "energy": 0.9155,
+        "bn_norm": 0.0242,
+        "ood_proj": 0.0184
+      },
+      "emi": {
+        "max_logit": 0.7927,
+        "entropy": 0.9291,
+        "energy": 0.7673,
+        "bn_norm": 0.0415,
+        "ood_proj": 0.0724
+      },
+      "corrupted_ecg": {
+        "max_logit": 0.6596,
+        "entropy": 0.9885,
+        "energy": 0.6272,
+        "bn_norm": 0.0094,
+        "ood_proj": 0.0014
+      }
+    },
+    "noise_robustness": {
+      "clean_auc": 0.947,
+      "noise": {
+        "baseline_wander": {
+          "snr_24dB": {
+            "auc": 0.9467,
+            "drop": 0.0003
+          },
+          "snr_18dB": {
+            "auc": 0.9459,
+            "drop": 0.0011
+          },
+          "snr_12dB": {
+            "auc": 0.9459,
+            "drop": 0.0012
+          },
+          "snr_6dB": {
+            "auc": 0.9315,
+            "drop": 0.0155
+          },
+          "snr_0dB": {
+            "auc": 0.909,
+            "drop": 0.038
+          }
+        },
+        "muscle_artifact_real": {
+          "snr_24dB": {
+            "auc": 0.9472,
+            "drop": -0.0001
+          },
+          "snr_18dB": {
+            "auc": 0.9493,
+            "drop": -0.0023
+          },
+          "snr_12dB": {
+            "auc": 0.947,
+            "drop": 0.0
+          },
+          "snr_6dB": {
+            "auc": 0.9345,
+            "drop": 0.0125
+          },
+          "snr_0dB": {
+            "auc": 0.8922,
+            "drop": 0.0548
+          }
+        },
+        "electrode_motion": {
+          "snr_24dB": {
+            "auc": 0.9471,
+            "drop": -0.0001
+          },
+          "snr_18dB": {
+            "auc": 0.9455,
+            "drop": 0.0015
+          },
+          "snr_12dB": {
+            "auc": 0.9433,
+            "drop": 0.0037
+          },
+          "snr_6dB": {
+            "auc": 0.9294,
+            "drop": 0.0177
+          },
+          "snr_0dB": {
+            "auc": 0.8737,
+            "drop": 0.0733
+          }
+        }
+      }
+    }
+  },
+  "best_conformer_hadamard_s1337.pt": {
+    "synthetic_ood": {
+      "flat_leadoff": {
+        "max_logit": 0.9158,
+        "entropy": 0.9118,
+        "energy": 0.9155,
+        "bn_norm": 0.0874,
+        "ood_proj": 0.0691
+      },
+      "gaussian": {
+        "max_logit": 0.7753,
+        "entropy": 0.9942,
+        "energy": 0.6499,
+        "bn_norm": 0.0095,
+        "ood_proj": 0.0036
+      },
+      "muscle_artifact": {
+        "max_logit": 0.0668,
+        "entropy": 0.9644,
+        "energy": 0.0645,
+        "bn_norm": 0.0323,
+        "ood_proj": 0.0165
+      },
+      "emi": {
+        "max_logit": 0.805,
+        "entropy": 0.9375,
+        "energy": 0.7198,
+        "bn_norm": 0.0467,
+        "ood_proj": 0.042
+      },
+      "corrupted_ecg": {
+        "max_logit": 0.7893,
+        "entropy": 0.9933,
+        "energy": 0.6641,
+        "bn_norm": 0.0102,
+        "ood_proj": 0.0039
+      }
+    },
+    "noise_robustness": {
+      "clean_auc": 0.9619,
+      "noise": {
+        "baseline_wander": {
+          "snr_24dB": {
+            "auc": 0.961,
+            "drop": 0.0008
+          },
+          "snr_18dB": {
+            "auc": 0.96,
+            "drop": 0.0019
+          },
+          "snr_12dB": {
+            "auc": 0.9568,
+            "drop": 0.0051
+          },
+          "snr_6dB": {
+            "auc": 0.9432,
+            "drop": 0.0187
+          },
+          "snr_0dB": {
+            "auc": 0.8909,
+            "drop": 0.071
+          }
+        },
+        "muscle_artifact_real": {
+          "snr_24dB": {
+            "auc": 0.9617,
+            "drop": 0.0002
+          },
+          "snr_18dB": {
+            "auc": 0.962,
+            "drop": -0.0001
+          },
+          "snr_12dB": {
+            "auc": 0.9602,
+            "drop": 0.0017
+          },
+          "snr_6dB": {
+            "auc": 0.9497,
+            "drop": 0.0122
+          },
+          "snr_0dB": {
+            "auc": 0.8822,
+            "drop": 0.0796
+          }
+        },
+        "electrode_motion": {
+          "snr_24dB": {
+            "auc": 0.9612,
+            "drop": 0.0007
+          },
+          "snr_18dB": {
+            "auc": 0.9602,
+            "drop": 0.0017
+          },
+          "snr_12dB": {
+            "auc": 0.9573,
+            "drop": 0.0046
+          },
+          "snr_6dB": {
+            "auc": 0.9422,
+            "drop": 0.0197
+          },
+          "snr_0dB": {
+            "auc": 0.8582,
+            "drop": 0.1037
+          }
+        }
+      }
+    }
+  },
+  "best_conformer_hartley_s42.pt": {
+    "synthetic_ood": {
+      "flat_leadoff": {
+        "max_logit": 0.9173,
+        "entropy": 0.8847,
+        "energy": 0.9247,
+        "bn_norm": 0.0926,
+        "ood_proj": 0.2044
+      },
+      "gaussian": {
+        "max_logit": 0.8963,
+        "entropy": 0.8888,
+        "energy": 0.9059,
+        "bn_norm": 0.0307,
+        "ood_proj": 0.0578
+      },
+      "muscle_artifact": {
+        "max_logit": 0.9675,
+        "entropy": 0.9872,
+        "energy": 0.9621,
+        "bn_norm": 0.0227,
+        "ood_proj": 0.0304
+      },
+      "emi": {
+        "max_logit": 0.9349,
+        "entropy": 0.9371,
+        "energy": 0.9363,
+        "bn_norm": 0.0464,
+        "ood_proj": 0.1364
+      },
+      "corrupted_ecg": {
+        "max_logit": 0.8915,
+        "entropy": 0.8961,
+        "energy": 0.8985,
+        "bn_norm": 0.0389,
+        "ood_proj": 0.0217
+      }
+    },
+    "noise_robustness": {
+      "clean_auc": 0.96,
+      "noise": {
+        "baseline_wander": {
+          "snr_24dB": {
+            "auc": 0.9597,
+            "drop": 0.0004
+          },
+          "snr_18dB": {
+            "auc": 0.9587,
+            "drop": 0.0013
+          },
+          "snr_12dB": {
+            "auc": 0.9581,
+            "drop": 0.0019
+          },
+          "snr_6dB": {
+            "auc": 0.9472,
+            "drop": 0.0128
+          },
+          "snr_0dB": {
+            "auc": 0.9121,
+            "drop": 0.0479
+          }
+        },
+        "muscle_artifact_real": {
+          "snr_24dB": {
+            "auc": 0.9601,
+            "drop": -0.0001
+          },
+          "snr_18dB": {
+            "auc": 0.9603,
+            "drop": -0.0003
+          },
+          "snr_12dB": {
+            "auc": 0.9578,
+            "drop": 0.0023
+          },
+          "snr_6dB": {
+            "auc": 0.9501,
+            "drop": 0.0099
+          },
+          "snr_0dB": {
+            "auc": 0.9266,
+            "drop": 0.0334
+          }
+        },
+        "electrode_motion": {
+          "snr_24dB": {
+            "auc": 0.9596,
+            "drop": 0.0004
+          },
+          "snr_18dB": {
+            "auc": 0.9598,
+            "drop": 0.0002
+          },
+          "snr_12dB": {
+            "auc": 0.96,
+            "drop": 0.0
+          },
+          "snr_6dB": {
+            "auc": 0.9494,
+            "drop": 0.0107
+          },
+          "snr_0dB": {
+            "auc": 0.9068,
+            "drop": 0.0533
+          }
+        }
+      }
+    }
+  },
+  "best_conformer_hartley_s123.pt": {
+    "synthetic_ood": {
+      "flat_leadoff": {
+        "max_logit": 0.8862,
+        "entropy": 0.8852,
+        "energy": 0.8885,
+        "bn_norm": 0.0423,
+        "ood_proj": 0.1577
+      },
+      "gaussian": {
+        "max_logit": 0.9635,
+        "entropy": 0.9603,
+        "energy": 0.965,
+        "bn_norm": 0.0226,
+        "ood_proj": 0.0855
+      },
+      "muscle_artifact": {
+        "max_logit": 0.8514,
+        "entropy": 0.957,
+        "energy": 0.8393,
+        "bn_norm": 0.0276,
+        "ood_proj": 0.011
+      },
+      "emi": {
+        "max_logit": 0.9235,
+        "entropy": 0.9396,
+        "energy": 0.9237,
+        "bn_norm": 0.0199,
+        "ood_proj": 0.0998
+      },
+      "corrupted_ecg": {
+        "max_logit": 0.9147,
+        "entropy": 0.8129,
+        "energy": 0.9216,
+        "bn_norm": 0.0945,
+        "ood_proj": 0.1986
+      }
+    },
+    "noise_robustness": {
+      "clean_auc": 0.9635,
+      "noise": {
+        "baseline_wander": {
+          "snr_24dB": {
+            "auc": 0.9603,
+            "drop": 0.0032
+          },
+          "snr_18dB": {
+            "auc": 0.9583,
+            "drop": 0.0052
+          },
+          "snr_12dB": {
+            "auc": 0.9562,
+            "drop": 0.0073
+          },
+          "snr_6dB": {
+            "auc": 0.9502,
+            "drop": 0.0133
+          },
+          "snr_0dB": {
+            "auc": 0.9294,
+            "drop": 0.0341
+          }
+        },
+        "muscle_artifact_real": {
+          "snr_24dB": {
+            "auc": 0.963,
+            "drop": 0.0005
+          },
+          "snr_18dB": {
+            "auc": 0.9624,
+            "drop": 0.0011
+          },
+          "snr_12dB": {
+            "auc": 0.9628,
+            "drop": 0.0006
+          },
+          "snr_6dB": {
+            "auc": 0.9511,
+            "drop": 0.0123
+          },
+          "snr_0dB": {
+            "auc": 0.9305,
+            "drop": 0.033
+          }
+        },
+        "electrode_motion": {
+          "snr_24dB": {
+            "auc": 0.963,
+            "drop": 0.0005
+          },
+          "snr_18dB": {
+            "auc": 0.9629,
+            "drop": 0.0006
+          },
+          "snr_12dB": {
+            "auc": 0.9598,
+            "drop": 0.0037
+          },
+          "snr_6dB": {
+            "auc": 0.9454,
+            "drop": 0.018
+          },
+          "snr_0dB": {
+            "auc": 0.8875,
+            "drop": 0.076
+          }
+        }
+      }
+    }
+  },
+  "best_conformer_hartley_s456.pt": {
+    "synthetic_ood": {
+      "flat_leadoff": {
+        "max_logit": 0.8789,
+        "entropy": 0.8569,
+        "energy": 0.8833,
+        "bn_norm": 0.0821,
+        "ood_proj": 0.1577
+      },
+      "gaussian": {
+        "max_logit": 0.7382,
+        "entropy": 0.9683,
+        "energy": 0.6929,
+        "bn_norm": 0.0119,
+        "ood_proj": 0.0033
+      },
+      "muscle_artifact": {
+        "max_logit": 0.7949,
+        "entropy": 0.9586,
+        "energy": 0.7908,
+        "bn_norm": 0.0162,
+        "ood_proj": 0.0372
+      },
+      "emi": {
+        "max_logit": 0.8601,
+        "entropy": 0.9805,
+        "energy": 0.7917,
+        "bn_norm": 0.0143,
+        "ood_proj": 0.0407
+      },
+      "corrupted_ecg": {
+        "max_logit": 0.8062,
+        "entropy": 0.9791,
+        "energy": 0.7412,
+        "bn_norm": 0.0082,
+        "ood_proj": 0.0029
+      }
+    },
+    "noise_robustness": {
+      "clean_auc": 0.9585,
+      "noise": {
+        "baseline_wander": {
+          "snr_24dB": {
+            "auc": 0.9578,
+            "drop": 0.0007
+          },
+          "snr_18dB": {
+            "auc": 0.9568,
+            "drop": 0.0017
+          },
+          "snr_12dB": {
+            "auc": 0.9571,
+            "drop": 0.0014
+          },
+          "snr_6dB": {
+            "auc": 0.9531,
+            "drop": 0.0055
+          },
+          "snr_0dB": {
+            "auc": 0.916,
+            "drop": 0.0425
+          }
+        },
+        "muscle_artifact_real": {
+          "snr_24dB": {
+            "auc": 0.9573,
+            "drop": 0.0012
+          },
+          "snr_18dB": {
+            "auc": 0.9562,
+            "drop": 0.0024
+          },
+          "snr_12dB": {
+            "auc": 0.9529,
+            "drop": 0.0056
+          },
+          "snr_6dB": {
+            "auc": 0.9447,
+            "drop": 0.0138
+          },
+          "snr_0dB": {
+            "auc": 0.9069,
+            "drop": 0.0517
+          }
+        },
+        "electrode_motion": {
+          "snr_24dB": {
+            "auc": 0.9594,
+            "drop": -0.0009
+          },
+          "snr_18dB": {
+            "auc": 0.9589,
+            "drop": -0.0003
+          },
+          "snr_12dB": {
+            "auc": 0.9555,
+            "drop": 0.003
+          },
+          "snr_6dB": {
+            "auc": 0.9489,
+            "drop": 0.0097
+          },
+          "snr_0dB": {
+            "auc": 0.8821,
+            "drop": 0.0765
+          }
+        }
+      }
+    }
+  },
+  "best_conformer_hartley_s789.pt": {
+    "synthetic_ood": {
+      "flat_leadoff": {
+        "max_logit": 0.9095,
+        "entropy": 0.9488,
+        "energy": 0.9081,
+        "bn_norm": 0.046,
+        "ood_proj": 0.3071
+      },
+      "gaussian": {
+        "max_logit": 0.8441,
+        "entropy": 0.9935,
+        "energy": 0.8157,
+        "bn_norm": 0.0066,
+        "ood_proj": 0.0038
+      },
+      "muscle_artifact": {
+        "max_logit": 0.8302,
+        "entropy": 0.9862,
+        "energy": 0.7854,
+        "bn_norm": 0.0132,
+        "ood_proj": 0.0127
+      },
+      "emi": {
+        "max_logit": 0.8995,
+        "entropy": 0.9294,
+        "energy": 0.8916,
+        "bn_norm": 0.0223,
+        "ood_proj": 0.1799
+      },
+      "corrupted_ecg": {
+        "max_logit": 0.8593,
+        "entropy": 0.9913,
+        "energy": 0.8283,
+        "bn_norm": 0.0068,
+        "ood_proj": 0.0036
+      }
+    },
+    "noise_robustness": {
+      "clean_auc": 0.9543,
+      "noise": {
+        "baseline_wander": {
+          "snr_24dB": {
+            "auc": 0.9532,
+            "drop": 0.0011
+          },
+          "snr_18dB": {
+            "auc": 0.9525,
+            "drop": 0.0018
+          },
+          "snr_12dB": {
+            "auc": 0.9497,
+            "drop": 0.0046
+          },
+          "snr_6dB": {
+            "auc": 0.9446,
+            "drop": 0.0097
+          },
+          "snr_0dB": {
+            "auc": 0.9314,
+            "drop": 0.0228
+          }
+        },
+        "muscle_artifact_real": {
+          "snr_24dB": {
+            "auc": 0.9533,
+            "drop": 0.001
+          },
+          "snr_18dB": {
+            "auc": 0.9522,
+            "drop": 0.002
+          },
+          "snr_12dB": {
+            "auc": 0.9531,
+            "drop": 0.0012
+          },
+          "snr_6dB": {
+            "auc": 0.9467,
+            "drop": 0.0075
+          },
+          "snr_0dB": {
+            "auc": 0.9288,
+            "drop": 0.0255
+          }
+        },
+        "electrode_motion": {
+          "snr_24dB": {
+            "auc": 0.954,
+            "drop": 0.0003
+          },
+          "snr_18dB": {
+            "auc": 0.9554,
+            "drop": -0.0011
+          },
+          "snr_12dB": {
+            "auc": 0.9576,
+            "drop": -0.0033
+          },
+          "snr_6dB": {
+            "auc": 0.9521,
+            "drop": 0.0022
+          },
+          "snr_0dB": {
+            "auc": 0.9221,
+            "drop": 0.0322
+          }
+        }
+      }
+    }
+  },
+  "best_conformer_hartley_s1337.pt": {
+    "synthetic_ood": {
+      "flat_leadoff": {
+        "max_logit": 0.9159,
+        "entropy": 0.8713,
+        "energy": 0.9344,
+        "bn_norm": 0.0863,
+        "ood_proj": 0.1731
+      },
+      "gaussian": {
+        "max_logit": 0.9907,
+        "entropy": 0.9521,
+        "energy": 0.9905,
+        "bn_norm": 0.0322,
+        "ood_proj": 0.0847
+      },
+      "muscle_artifact": {
+        "max_logit": 0.9758,
+        "entropy": 0.9704,
+        "energy": 0.9731,
+        "bn_norm": 0.072,
+        "ood_proj": 0.0216
+      },
+      "emi": {
+        "max_logit": 0.9777,
+        "entropy": 0.9672,
+        "energy": 0.9749,
+        "bn_norm": 0.0204,
+        "ood_proj": 0.0933
+      },
+      "corrupted_ecg": {
+        "max_logit": 0.9951,
+        "entropy": 0.9585,
+        "energy": 0.9947,
+        "bn_norm": 0.0384,
+        "ood_proj": 0.0888
+      }
+    },
+    "noise_robustness": {
+      "clean_auc": 0.9581,
+      "noise": {
+        "baseline_wander": {
+          "snr_24dB": {
+            "auc": 0.9574,
+            "drop": 0.0007
+          },
+          "snr_18dB": {
+            "auc": 0.9557,
+            "drop": 0.0025
+          },
+          "snr_12dB": {
+            "auc": 0.9526,
+            "drop": 0.0056
+          },
+          "snr_6dB": {
+            "auc": 0.9438,
+            "drop": 0.0144
+          },
+          "snr_0dB": {
+            "auc": 0.9384,
+            "drop": 0.0198
+          }
+        },
+        "muscle_artifact_real": {
+          "snr_24dB": {
+            "auc": 0.9585,
+            "drop": -0.0004
+          },
+          "snr_18dB": {
+            "auc": 0.9584,
+            "drop": -0.0002
+          },
+          "snr_12dB": {
+            "auc": 0.9567,
+            "drop": 0.0014
+          },
+          "snr_6dB": {
+            "auc": 0.9564,
+            "drop": 0.0017
+          },
+          "snr_0dB": {
+            "auc": 0.9285,
+            "drop": 0.0296
+          }
+        },
+        "electrode_motion": {
+          "snr_24dB": {
+            "auc": 0.9587,
+            "drop": -0.0006
+          },
+          "snr_18dB": {
+            "auc": 0.9593,
+            "drop": -0.0011
+          },
+          "snr_12dB": {
+            "auc": 0.9583,
+            "drop": -0.0002
+          },
+          "snr_6dB": {
+            "auc": 0.9483,
+            "drop": 0.0098
+          },
+          "snr_0dB": {
+            "auc": 0.9102,
+            "drop": 0.0479
+          }
+        }
+      }
+    }
+  },
+  "best_conformer_sinusoidal_s42.pt": {
+    "synthetic_ood": {
+      "flat_leadoff": {
+        "max_logit": 0.8937,
+        "entropy": 0.9164,
+        "energy": 0.8993,
+        "bn_norm": 0.0396,
+        "ood_proj": 0.1193
+      },
+      "gaussian": {
+        "max_logit": 0.819,
+        "entropy": 0.9311,
+        "energy": 0.7699,
+        "bn_norm": 0.0154,
+        "ood_proj": 0.0971
+      },
+      "muscle_artifact": {
+        "max_logit": 0.7991,
+        "entropy": 0.8944,
+        "energy": 0.7936,
+        "bn_norm": 0.0178,
+        "ood_proj": 0.1096
+      },
+      "emi": {
+        "max_logit": 0.7654,
+        "entropy": 0.854,
+        "energy": 0.7517,
+        "bn_norm": 0.056,
+        "ood_proj": 0.19
+      },
+      "corrupted_ecg": {
+        "max_logit": 0.6027,
+        "entropy": 0.979,
+        "energy": 0.5418,
+        "bn_norm": 0.009,
+        "ood_proj": 0.0236
+      }
+    },
+    "noise_robustness": {
+      "clean_auc": 0.9509,
+      "noise": {
+        "baseline_wander": {
+          "snr_24dB": {
+            "auc": 0.9498,
+            "drop": 0.0011
+          },
+          "snr_18dB": {
+            "auc": 0.9466,
+            "drop": 0.0043
+          },
+          "snr_12dB": {
+            "auc": 0.9432,
+            "drop": 0.0077
+          },
+          "snr_6dB": {
+            "auc": 0.9259,
+            "drop": 0.0249
+          },
+          "snr_0dB": {
+            "auc": 0.9051,
+            "drop": 0.0457
+          }
+        },
+        "muscle_artifact_real": {
+          "snr_24dB": {
+            "auc": 0.9535,
+            "drop": -0.0026
+          },
+          "snr_18dB": {
+            "auc": 0.9543,
+            "drop": -0.0034
+          },
+          "snr_12dB": {
+            "auc": 0.9492,
+            "drop": 0.0017
+          },
+          "snr_6dB": {
+            "auc": 0.935,
+            "drop": 0.0158
+          },
+          "snr_0dB": {
+            "auc": 0.8974,
+            "drop": 0.0535
+          }
+        },
+        "electrode_motion": {
+          "snr_24dB": {
+            "auc": 0.9517,
+            "drop": -0.0008
+          },
+          "snr_18dB": {
+            "auc": 0.9484,
+            "drop": 0.0025
+          },
+          "snr_12dB": {
+            "auc": 0.9423,
+            "drop": 0.0085
+          },
+          "snr_6dB": {
+            "auc": 0.9201,
+            "drop": 0.0308
+          },
+          "snr_0dB": {
+            "auc": 0.8776,
+            "drop": 0.0732
+          }
+        }
+      }
+    }
+  },
+  "best_conformer_sinusoidal_s123.pt": {
+    "synthetic_ood": {
+      "flat_leadoff": {
+        "max_logit": 0.7952,
+        "entropy": 0.8619,
+        "energy": 0.7918,
+        "bn_norm": 0.127,
+        "ood_proj": 0.1348
+      },
+      "gaussian": {
+        "max_logit": 0.8047,
+        "entropy": 0.9687,
+        "energy": 0.7688,
+        "bn_norm": 0.026,
+        "ood_proj": 0.1086
+      },
+      "muscle_artifact": {
+        "max_logit": 0.9646,
+        "entropy": 0.9858,
+        "energy": 0.924,
+        "bn_norm": 0.0158,
+        "ood_proj": 0.065
+      },
+      "emi": {
+        "max_logit": 0.8115,
+        "entropy": 0.9096,
+        "energy": 0.7775,
+        "bn_norm": 0.0832,
+        "ood_proj": 0.1177
+      },
+      "corrupted_ecg": {
+        "max_logit": 0.9266,
+        "entropy": 0.9926,
+        "energy": 0.8285,
+        "bn_norm": 0.0092,
+        "ood_proj": 0.0354
+      }
+    },
+    "noise_robustness": {
+      "clean_auc": 0.9588,
+      "noise": {
+        "baseline_wander": {
+          "snr_24dB": {
+            "auc": 0.9587,
+            "drop": 0.0001
+          },
+          "snr_18dB": {
+            "auc": 0.9573,
+            "drop": 0.0016
+          },
+          "snr_12dB": {
+            "auc": 0.9527,
+            "drop": 0.0061
+          },
+          "snr_6dB": {
+            "auc": 0.939,
+            "drop": 0.0198
+          },
+          "snr_0dB": {
+            "auc": 0.9093,
+            "drop": 0.0495
+          }
+        },
+        "muscle_artifact_real": {
+          "snr_24dB": {
+            "auc": 0.9578,
+            "drop": 0.0011
+          },
+          "snr_18dB": {
+            "auc": 0.956,
+            "drop": 0.0028
+          },
+          "snr_12dB": {
+            "auc": 0.9522,
+            "drop": 0.0067
+          },
+          "snr_6dB": {
+            "auc": 0.9324,
+            "drop": 0.0264
+          },
+          "snr_0dB": {
+            "auc": 0.8651,
+            "drop": 0.0937
+          }
+        },
+        "electrode_motion": {
+          "snr_24dB": {
+            "auc": 0.9582,
+            "drop": 0.0006
+          },
+          "snr_18dB": {
+            "auc": 0.9563,
+            "drop": 0.0026
+          },
+          "snr_12dB": {
+            "auc": 0.9519,
+            "drop": 0.0069
+          },
+          "snr_6dB": {
+            "auc": 0.9338,
+            "drop": 0.0251
+          },
+          "snr_0dB": {
+            "auc": 0.8758,
+            "drop": 0.0831
+          }
+        }
+      }
+    }
+  },
+  "best_conformer_sinusoidal_s456.pt": {
+    "synthetic_ood": {
+      "flat_leadoff": {
+        "max_logit": 0.902,
+        "entropy": 0.9208,
+        "energy": 0.8997,
+        "bn_norm": 0.0594,
+        "ood_proj": 0.1173
+      },
+      "gaussian": {
+        "max_logit": 0.7984,
+        "entropy": 0.9944,
+        "energy": 0.6638,
+        "bn_norm": 0.0001,
+        "ood_proj": 0.026
+      },
+      "muscle_artifact": {
+        "max_logit": 0.9337,
+        "entropy": 0.988,
+        "energy": 0.9236,
+        "bn_norm": 0.0104,
+        "ood_proj": 0.053
+      },
+      "emi": {
+        "max_logit": 0.822,
+        "entropy": 0.9342,
+        "energy": 0.789,
+        "bn_norm": 0.037,
+        "ood_proj": 0.0624
+      },
+      "corrupted_ecg": {
+        "max_logit": 0.7933,
+        "entropy": 0.9917,
+        "energy": 0.6789,
+        "bn_norm": 0.0039,
+        "ood_proj": 0.0281
+      }
+    },
+    "noise_robustness": {
+      "clean_auc": 0.9535,
+      "noise": {
+        "baseline_wander": {
+          "snr_24dB": {
+            "auc": 0.9502,
+            "drop": 0.0034
+          },
+          "snr_18dB": {
+            "auc": 0.9457,
+            "drop": 0.0078
+          },
+          "snr_12dB": {
+            "auc": 0.9379,
+            "drop": 0.0156
+          },
+          "snr_6dB": {
+            "auc": 0.9244,
+            "drop": 0.0291
+          },
+          "snr_0dB": {
+            "auc": 0.8878,
+            "drop": 0.0657
+          }
+        },
+        "muscle_artifact_real": {
+          "snr_24dB": {
+            "auc": 0.9524,
+            "drop": 0.0011
+          },
+          "snr_18dB": {
+            "auc": 0.9497,
+            "drop": 0.0038
+          },
+          "snr_12dB": {
+            "auc": 0.9396,
+            "drop": 0.0139
+          },
+          "snr_6dB": {
+            "auc": 0.9159,
+            "drop": 0.0376
+          },
+          "snr_0dB": {
+            "auc": 0.8788,
+            "drop": 0.0747
+          }
+        },
+        "electrode_motion": {
+          "snr_24dB": {
+            "auc": 0.954,
+            "drop": -0.0005
+          },
+          "snr_18dB": {
+            "auc": 0.9528,
+            "drop": 0.0007
+          },
+          "snr_12dB": {
+            "auc": 0.9459,
+            "drop": 0.0076
+          },
+          "snr_6dB": {
+            "auc": 0.9271,
+            "drop": 0.0264
+          },
+          "snr_0dB": {
+            "auc": 0.8798,
+            "drop": 0.0737
+          }
+        }
+      }
+    }
+  },
+  "best_conformer_sinusoidal_s789.pt": {
+    "synthetic_ood": {
+      "flat_leadoff": {
+        "max_logit": 0.8766,
+        "entropy": 0.8656,
+        "energy": 0.8776,
+        "bn_norm": 0.0528,
+        "ood_proj": 0.1038
+      },
+      "gaussian": {
+        "max_logit": 0.1358,
+        "entropy": 0.9619,
+        "energy": 0.1344,
+        "bn_norm": 0.0235,
+        "ood_proj": 0.0
+      },
+      "muscle_artifact": {
+        "max_logit": 0.4912,
+        "entropy": 0.8715,
+        "energy": 0.4847,
+        "bn_norm": 0.0228,
+        "ood_proj": 0.0388
+      },
+      "emi": {
+        "max_logit": 0.5448,
+        "entropy": 0.9497,
+        "energy": 0.5332,
+        "bn_norm": 0.0268,
+        "ood_proj": 0.0369
+      },
+      "corrupted_ecg": {
+        "max_logit": 0.6292,
+        "entropy": 0.9476,
+        "energy": 0.6176,
+        "bn_norm": 0.0243,
+        "ood_proj": 0.0043
+      }
+    },
+    "noise_robustness": {
+      "clean_auc": 0.9426,
+      "noise": {
+        "baseline_wander": {
+          "snr_24dB": {
+            "auc": 0.9408,
+            "drop": 0.0017
+          },
+          "snr_18dB": {
+            "auc": 0.9383,
+            "drop": 0.0042
+          },
+          "snr_12dB": {
+            "auc": 0.9295,
+            "drop": 0.0131
+          },
+          "snr_6dB": {
+            "auc": 0.9261,
+            "drop": 0.0165
+          },
+          "snr_0dB": {
+            "auc": 0.8888,
+            "drop": 0.0537
+          }
+        },
+        "muscle_artifact_real": {
+          "snr_24dB": {
+            "auc": 0.9423,
+            "drop": 0.0002
+          },
+          "snr_18dB": {
+            "auc": 0.942,
+            "drop": 0.0005
+          },
+          "snr_12dB": {
+            "auc": 0.9378,
+            "drop": 0.0047
+          },
+          "snr_6dB": {
+            "auc": 0.9295,
+            "drop": 0.0131
+          },
+          "snr_0dB": {
+            "auc": 0.8978,
+            "drop": 0.0447
+          }
+        },
+        "electrode_motion": {
+          "snr_24dB": {
+            "auc": 0.9416,
+            "drop": 0.001
+          },
+          "snr_18dB": {
+            "auc": 0.9404,
+            "drop": 0.0022
+          },
+          "snr_12dB": {
+            "auc": 0.9299,
+            "drop": 0.0127
+          },
+          "snr_6dB": {
+            "auc": 0.9144,
+            "drop": 0.0281
+          },
+          "snr_0dB": {
+            "auc": 0.8957,
+            "drop": 0.0469
+          }
+        }
+      }
+    }
+  },
+  "best_conformer_sinusoidal_s1337.pt": {
+    "synthetic_ood": {
+      "flat_leadoff": {
+        "max_logit": 0.8692,
+        "entropy": 0.8152,
+        "energy": 0.8824,
+        "bn_norm": 0.1817,
+        "ood_proj": 0.2038
+      },
+      "gaussian": {
+        "max_logit": 0.8513,
+        "entropy": 0.9995,
+        "energy": 0.6854,
+        "bn_norm": 0.001,
+        "ood_proj": 0.0385
+      },
+      "muscle_artifact": {
+        "max_logit": 0.8182,
+        "entropy": 0.9943,
+        "energy": 0.772,
+        "bn_norm": 0.0048,
+        "ood_proj": 0.0361
+      },
+      "emi": {
+        "max_logit": 0.7723,
+        "entropy": 0.847,
+        "energy": 0.7534,
+        "bn_norm": 0.1437,
+        "ood_proj": 0.2963
+      },
+      "corrupted_ecg": {
+        "max_logit": 0.8387,
+        "entropy": 0.999,
+        "energy": 0.6782,
+        "bn_norm": 0.0021,
+        "ood_proj": 0.0387
+      }
+    },
+    "noise_robustness": {
+      "clean_auc": 0.9488,
+      "noise": {
+        "baseline_wander": {
+          "snr_24dB": {
+            "auc": 0.9499,
+            "drop": -0.001
+          },
+          "snr_18dB": {
+            "auc": 0.9492,
+            "drop": -0.0003
+          },
+          "snr_12dB": {
+            "auc": 0.9472,
+            "drop": 0.0016
+          },
+          "snr_6dB": {
+            "auc": 0.9392,
+            "drop": 0.0097
+          },
+          "snr_0dB": {
+            "auc": 0.9135,
+            "drop": 0.0354
+          }
+        },
+        "muscle_artifact_real": {
+          "snr_24dB": {
+            "auc": 0.9495,
+            "drop": -0.0006
+          },
+          "snr_18dB": {
+            "auc": 0.9494,
+            "drop": -0.0006
+          },
+          "snr_12dB": {
+            "auc": 0.9462,
+            "drop": 0.0027
+          },
+          "snr_6dB": {
+            "auc": 0.9423,
+            "drop": 0.0065
+          },
+          "snr_0dB": {
+            "auc": 0.9014,
+            "drop": 0.0474
+          }
+        },
+        "electrode_motion": {
+          "snr_24dB": {
+            "auc": 0.9491,
+            "drop": -0.0003
+          },
+          "snr_18dB": {
+            "auc": 0.9489,
+            "drop": -0.0001
+          },
+          "snr_12dB": {
+            "auc": 0.9476,
+            "drop": 0.0012
+          },
+          "snr_6dB": {
+            "auc": 0.945,
+            "drop": 0.0038
+          },
+          "snr_0dB": {
+            "auc": 0.9081,
+            "drop": 0.0407
+          }
+        }
+      }
+    }
+  }
+}

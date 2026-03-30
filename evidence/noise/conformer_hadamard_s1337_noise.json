@@ -1,0 +1,7 @@
+{
+  "seed": 1337,
+  "clean": 0.9619,
+  "baseline_wander_drop": 0.071,
+  "muscle_artifact_real_drop": 0.0796,
+  "electrode_motion_drop": 0.1037
+}

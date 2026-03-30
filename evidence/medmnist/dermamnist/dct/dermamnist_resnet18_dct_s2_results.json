@@ -1,0 +1,25 @@
+{
+  "dataset": "dermamnist",
+  "arch": "resnet18",
+  "init": "dct",
+  "seed": 2,
+  "bn_dim": null,
+  "num_classes": 7,
+  "best_acc": 0.7945,
+  "best_auc": 0.9173,
+  "per_class_auc": [
+    0.934,
+    0.9559,
+    0.9051,
+    0.9024,
+    0.8527,
+    0.9197,
+    0.9511
+  ],
+  "batch_order": "seeded",
+  "best_ep": 190,
+  "params": 11172423,
+  "init_md5": "c0612b1911577dd5d7a341ef9aefad53",
+  "final_md5": "c3b67e5910ca6bce794ee422d91db621",
+  "time": 424.4
+}

@@ -1,0 +1,23 @@
+{
+  "dataset": "retinamnist",
+  "arch": "resnet18",
+  "init": "dct",
+  "seed": 11,
+  "bn_dim": null,
+  "num_classes": 5,
+  "best_acc": 0.5375,
+  "best_auc": 0.7131,
+  "per_class_auc": [
+    0.8159,
+    0.6346,
+    0.6849,
+    0.7267,
+    0.7034
+  ],
+  "batch_order": "seeded",
+  "best_ep": 60,
+  "params": 11171397,
+  "init_md5": "c9dcf0aae99d226e500e27c3b2ca86a2",
+  "final_md5": "8669e366fb03013f5dc1f7579fb1a86b",
+  "time": 533.6
+}

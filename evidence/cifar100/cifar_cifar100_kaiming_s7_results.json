@@ -1,0 +1,9 @@
+{
+  "dataset": "cifar100",
+  "init": "kaiming",
+  "seed": 7,
+  "best_acc": 0.7855,
+  "best_ep": 199,
+  "params": 11220132,
+  "time": 697.9
+}

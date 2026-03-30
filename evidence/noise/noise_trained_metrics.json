@@ -1,0 +1,38 @@
+{
+  "clean_macro": 0.9497,
+  "clean_per_class": {
+    "SR": 0.9126,
+    "AFIB": 0.9884,
+    "STACH": 0.9906,
+    "SARRH": 0.9298,
+    "SBRAD": 0.9472,
+    "PACE": 0.9671,
+    "SVARR": 0.8267,
+    "BIGU": 0.9306,
+    "AFLT": 0.9302,
+    "SVTAC": 0.9968,
+    "PSVT": 0.9995,
+    "TRIGU": 0.9772
+  },
+  "noise_robustness": {
+    "baseline_wander_snr24dB": 0.9497,
+    "baseline_wander_snr18dB": 0.9486,
+    "baseline_wander_snr12dB": 0.9458,
+    "baseline_wander_snr6dB": 0.9394,
+    "baseline_wander_snr0dB": 0.9262,
+    "muscle_artifact_real_snr24dB": 0.9487,
+    "muscle_artifact_real_snr18dB": 0.9478,
+    "muscle_artifact_real_snr12dB": 0.945,
+    "muscle_artifact_real_snr6dB": 0.9358,
+    "muscle_artifact_real_snr0dB": 0.9127,
+    "electrode_motion_snr24dB": 0.9496,
+    "electrode_motion_snr18dB": 0.9482,
+    "electrode_motion_snr12dB": 0.9452,
+    "electrode_motion_snr6dB": 0.9388,
+    "electrode_motion_snr0dB": 0.9017
+  },
+  "aug_fraction": 0.3,
+  "aug_snr": 18,
+  "best_ep": 40,
+  "best_val": 0.9659
+}

@@ -1,0 +1,212 @@
+{
+  "v9h": {
+    "dim": 14,
+    "classes": {
+      "SR": {
+        "n_train": 13404,
+        "n_test": 1674,
+        "orig": 0.9055,
+        "linear": 0.7487,
+        "mlp": 0.9092,
+        "tree": 0.875
+      },
+      "AFIB": {
+        "n_train": 1211,
+        "n_test": 152,
+        "orig": 0.9861,
+        "linear": 0.9863,
+        "mlp": 0.9851,
+        "tree": 0.9196
+      },
+      "STACH": {
+        "n_train": 661,
+        "n_test": 82,
+        "orig": 0.994,
+        "linear": 0.82,
+        "mlp": 0.9926,
+        "tree": 0.9353
+      },
+      "SARRH": {
+        "n_train": 618,
+        "n_test": 77,
+        "orig": 0.9106,
+        "linear": 0.8476,
+        "mlp": 0.8854,
+        "tree": 0.7861
+      },
+      "SBRAD": {
+        "n_train": 509,
+        "n_test": 64,
+        "orig": 0.9507,
+        "linear": 0.6306,
+        "mlp": 0.9176,
+        "tree": 0.8771
+      },
+      "PACE": {
+        "n_train": 237,
+        "n_test": 28,
+        "orig": 0.9623,
+        "linear": 0.9374,
+        "mlp": 0.9688,
+        "tree": 0.9431
+      },
+      "SVARR": {
+        "n_train": 128,
+        "n_test": 14,
+        "orig": 0.8475,
+        "linear": 0.6371,
+        "mlp": 0.828,
+        "tree": 0.6767
+      },
+      "BIGU": {
+        "n_train": 66,
+        "n_test": 8,
+        "orig": 0.9602,
+        "linear": 0.8639,
+        "mlp": 0.9623,
+        "tree": 0.6814
+      },
+      "AFLT": {
+        "n_train": 59,
+        "n_test": 7,
+        "orig": 0.9349,
+        "linear": 0.8357,
+        "mlp": 0.9261,
+        "tree": 0.7079
+      },
+      "SVTAC": {
+        "n_train": 21,
+        "n_test": 3,
+        "orig": 0.9756,
+        "linear": 0.955,
+        "mlp": 0.9304,
+        "tree": 0.6624
+      },
+      "PSVT": {
+        "n_train": 19,
+        "n_test": 2,
+        "orig": 0.998,
+        "linear": 0.9825,
+        "mlp": 0.9898,
+        "tree": 0.0023
+      },
+      "TRIGU": {
+        "n_train": 16,
+        "n_test": 2,
+        "orig": 0.9645,
+        "linear": 0.7067,
+        "mlp": 0.9647,
+        "tree": 0.7465
+      }
+    },
+    "macro_orig": 0.9492,
+    "macro_linear": 0.8293,
+    "macro_mlp": 0.9383,
+    "macro_tree": 0.7344
+  },
+  "baseline": {
+    "dim": 128,
+    "classes": {
+      "SR": {
+        "n_train": 13404,
+        "n_test": 1674,
+        "orig": 0.9129,
+        "linear": 0.912,
+        "mlp": 0.9143,
+        "tree": 0.9003
+      },
+      "AFIB": {
+        "n_train": 1211,
+        "n_test": 152,
+        "orig": 0.9866,
+        "linear": 0.9857,
+        "mlp": 0.9706,
+        "tree": 0.9597
+      },
+      "STACH": {
+        "n_train": 661,
+        "n_test": 82,
+        "orig": 0.9935,
+        "linear": 0.9897,
+        "mlp": 0.9875,
+        "tree": 0.9789
+      },
+      "SARRH": {
+        "n_train": 618,
+        "n_test": 77,
+        "orig": 0.9427,
+        "linear": 0.9288,
+        "mlp": 0.9455,
+        "tree": 0.863
+      },
+      "SBRAD": {
+        "n_train": 509,
+        "n_test": 64,
+        "orig": 0.9523,
+        "linear": 0.9087,
+        "mlp": 0.9463,
+        "tree": 0.9002
+      },
+      "PACE": {
+        "n_train": 237,
+        "n_test": 28,
+        "orig": 0.9844,
+        "linear": 0.9583,
+        "mlp": 0.9803,
+        "tree": 0.9413
+      },
+      "SVARR": {
+        "n_train": 128,
+        "n_test": 14,
+        "orig": 0.8975,
+        "linear": 0.8915,
+        "mlp": 0.864,
+        "tree": 0.7979
+      },
+      "BIGU": {
+        "n_train": 66,
+        "n_test": 8,
+        "orig": 0.9292,
+        "linear": 0.811,
+        "mlp": 0.8737,
+        "tree": 0.8373
+      },
+      "AFLT": {
+        "n_train": 59,
+        "n_test": 7,
+        "orig": 0.9082,
+        "linear": 0.903,
+        "mlp": 0.9176,
+        "tree": 0.7997
+      },
+      "SVTAC": {
+        "n_train": 21,
+        "n_test": 3,
+        "orig": 0.9976,
+        "linear": 0.9286,
+        "mlp": 0.995,
+        "tree": 0.4526
+      },
+      "PSVT": {
+        "n_train": 19,
+        "n_test": 2,
+        "orig": 0.9982,
+        "linear": 0.9886,
+        "mlp": 0.9713,
+        "tree": 0.4592
+      },
+      "TRIGU": {
+        "n_train": 16,
+        "n_test": 2,
+        "orig": 0.9665,
+        "linear": 0.9595,
+        "mlp": 0.9679,
+        "tree": 0.6922
+      }
+    },
+    "macro_orig": 0.9558,
+    "macro_linear": 0.9304,
+    "macro_mlp": 0.9445,
+    "macro_tree": 0.7985
+  }
+}

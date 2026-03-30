@@ -1,0 +1,106 @@
+{
+  "CPSC2018": {
+    "Conformer_6lead": {
+      "n_samples": 6877,
+      "n_af_true": 1221,
+      "n_af_pred": 1189,
+      "af_rate_true": 0.1775,
+      "af_rate_pred": 0.1729,
+      "af_auc": 0.979
+    },
+    "Baseline_6lead": {
+      "n_samples": 6877,
+      "n_af_true": 1221,
+      "n_af_pred": 1547,
+      "af_rate_true": 0.1775,
+      "af_rate_pred": 0.225,
+      "af_auc": 0.9792
+    },
+    "RepNet_6lead_orig": {
+      "n_samples": 6877,
+      "n_af_true": 1221,
+      "n_af_pred": 1398,
+      "af_rate_true": 0.1775,
+      "af_rate_pred": 0.2033,
+      "af_auc": 0.9816
+    }
+  },
+  "Chapman": {
+    "Conformer_6lead": {
+      "n_samples": 4999,
+      "n_af_true": 909,
+      "n_af_pred": 944,
+      "af_rate_true": 0.1818,
+      "af_rate_pred": 0.1888,
+      "af_auc": 0.984
+    },
+    "Baseline_6lead": {
+      "n_samples": 4999,
+      "n_af_true": 909,
+      "n_af_pred": 1215,
+      "af_rate_true": 0.1818,
+      "af_rate_pred": 0.243,
+      "af_auc": 0.9912
+    },
+    "RepNet_6lead_orig": {
+      "n_samples": 4999,
+      "n_af_true": 909,
+      "n_af_pred": 1073,
+      "af_rate_true": 0.1818,
+      "af_rate_pred": 0.2146,
+      "af_auc": 0.9894
+    }
+  },
+  "CPSC2018_12lead": {
+    "Conformer_12lead": {
+      "n_samples": 6877,
+      "n_af_true": 1221,
+      "n_af_pred": 2730,
+      "af_rate_true": 0.1775,
+      "af_rate_pred": 0.397,
+      "af_auc": 0.8306
+    },
+    "RepNet_12lead": {
+      "n_samples": 6877,
+      "n_af_true": 1221,
+      "n_af_pred": 4147,
+      "af_rate_true": 0.1775,
+      "af_rate_pred": 0.603,
+      "af_auc": 0.7944
+    },
+    "Baseline_12lead": {
+      "n_samples": 6877,
+      "n_af_true": 1221,
+      "n_af_pred": 1136,
+      "af_rate_true": 0.1775,
+      "af_rate_pred": 0.1652,
+      "af_auc": 0.9214
+    }
+  },
+  "Chapman_12lead": {
+    "Conformer_12lead": {
+      "n_samples": 4999,
+      "n_af_true": 909,
+      "n_af_pred": 1690,
+      "af_rate_true": 0.1818,
+      "af_rate_pred": 0.3381,
+      "af_auc": 0.9017
+    },
+    "RepNet_12lead": {
+      "n_samples": 4999,
+      "n_af_true": 909,
+      "n_af_pred": 2354,
+      "af_rate_true": 0.1818,
+      "af_rate_pred": 0.4709,
+      "af_auc": 0.906
+    },
+    "Baseline_12lead": {
+      "n_samples": 4999,
+      "n_af_true": 909,
+      "n_af_pred": 901,
+      "af_rate_true": 0.1818,
+      "af_rate_pred": 0.1802,
+      "af_auc": 0.9576
+    }
+  }
+}

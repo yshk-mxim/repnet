@@ -1,0 +1,27 @@
+{
+  "dataset": "pathmnist",
+  "arch": "resnet18",
+  "init": "kaiming",
+  "seed": 43,
+  "bn_dim": null,
+  "num_classes": 9,
+  "best_acc": 0.9241,
+  "best_auc": 0.9882,
+  "per_class_auc": [
+    0.9994,
+    1.0,
+    0.9968,
+    0.9996,
+    0.9966,
+    0.9882,
+    0.9979,
+    0.922,
+    0.9933
+  ],
+  "batch_order": "seeded",
+  "best_ep": 180,
+  "params": 11173449,
+  "init_md5": "e74282d796a5d729838163618bbb3ffb",
+  "final_md5": "2ed4798c02d9df2b7f652fe52f7b0d5c",
+  "time": 7557.5
+}

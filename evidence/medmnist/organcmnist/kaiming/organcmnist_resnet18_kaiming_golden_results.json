@@ -1,0 +1,29 @@
+{
+  "dataset": "organcmnist",
+  "arch": "resnet18",
+  "init": "kaiming",
+  "seed": 42,
+  "bn_dim": null,
+  "num_classes": 11,
+  "best_acc": 0.9323,
+  "best_auc": 0.9948,
+  "per_class_auc": [
+    0.9935,
+    0.9891,
+    0.9943,
+    0.9969,
+    0.9867,
+    0.9905,
+    0.9996,
+    0.9998,
+    0.9983,
+    0.9963,
+    0.9979
+  ],
+  "batch_order": "golden",
+  "best_ep": 160,
+  "params": 11173323,
+  "init_md5": "ab3edbf13453f00f2212da44bc92f43d",
+  "final_md5": "506e4d0ed0bf5c0a905f426db2caa90c",
+  "time": 4490.2
+}

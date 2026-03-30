@@ -1,0 +1,9 @@
+{
+  "dataset": "cifar100",
+  "init": "dct",
+  "seed": 42,
+  "best_acc": 0.7824,
+  "best_ep": 199,
+  "params": 11220132,
+  "time": 706.2
+}

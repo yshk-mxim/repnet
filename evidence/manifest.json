@@ -1,0 +1,216 @@
+{
+  "version": "1.0",
+  "paper_title": "Bit-Identical Medical Deep Learning via Structured Orthogonal Initialization",
+  "generated_date": "2026-03-28",
+  "seed_set": [2, 3, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 42, 43, 47, 53, 123, 456, 789, 1337],
+
+  "tables": {
+    "table_2_ablation": {
+      "label": "tab:ablation",
+      "title": "Component ablation (Conformer, n=5 batch seeds)",
+      "files": {
+        "mixed_cw_5": "ecg/ablation/conformer_ms_s{42,123,456,789,1337}_metrics.json",
+        "kaiming_ref_5": "ecg/ablation/conformer_kaiming_s{42,123,456,789,1337}_metrics.json"
+      },
+      "file_count": 10,
+      "gaps": ["DCT-only and intermediate ablation rows require recovery from development logs"]
+    },
+    "table_3_main": {
+      "label": "tab:main",
+      "title": "Structured init across architectures (n=20)",
+      "files": {
+        "conformer_mixed_20": "ecg/conformer_mixed/conformer_ms_s*_metrics.json",
+        "conformer_kaiming_20": "ecg/conformer_kaiming/conformer_kaiming_s*_metrics.json",
+        "conformer_golden": "ecg/golden/conformer_combined_golden_metrics.json",
+        "baseline_dct_n5": "ecg/baseline_dct/baseline_fulldet_bs*_metrics.json",
+        "baseline_dct_n20": "ecg_n20/baseline_dct_s*_metrics.json",
+        "baseline_kaiming_n5": "ecg/baseline_kaiming/baseline_kaiming_s*_metrics.json",
+        "baseline_kaiming_n20": "ecg_n20/baseline_kaiming_s*_metrics.json",
+        "xresnet_5": "ecg/xresnet/xresnet_equiv_s*_metrics.json"
+      },
+      "file_count": 96
+    },
+    "table_4_power": {
+      "label": "tab:power",
+      "title": "Statistical power analysis",
+      "files": "Derived from tables 3, 5, and A1 (no unique source files)",
+      "file_count": 0
+    },
+    "table_5_basis": {
+      "label": "tab:basis",
+      "title": "Orthogonal basis comparison (Conformer, n=20)",
+      "files": {
+        "dct_20": "basis_comparison/conformer_dct/conformer_dct_s*_metrics.json",
+        "hadamard_20": "basis_comparison/conformer_hadamard/conformer_hadamard_s*_metrics.json",
+        "hartley_20": "basis_comparison/conformer_hartley/conformer_hartley_s*_metrics.json",
+        "sinusoidal_20": "basis_comparison/conformer_sinusoidal/conformer_sinusoidal_s*_metrics.json",
+        "kaiming_cw_20": "basis_comparison/conformer_kaiming_cw/conformer_kaiming_cw_s*_metrics.json"
+      },
+      "file_count": 100
+    },
+    "table_6_golden": {
+      "label": "tab:golden",
+      "title": "Golden 2x2 design (Architecture x Init)",
+      "files": {
+        "conformer_mixed": "ecg/golden/conformer_combined_golden_metrics.json",
+        "conformer_kaiming": "basis_golden/conformer_kaiming_golden_metrics.json",
+        "baseline_dct": "basis_golden/baseline_dct_golden_metrics.json",
+        "baseline_kaiming": "basis_golden/baseline_kaiming_golden_metrics.json",
+        "all_golden_basis": "basis_golden/*_golden_metrics.json"
+      },
+      "file_count": 12
+    },
+    "table_7_medmnist": {
+      "label": "tab:medmnist",
+      "title": "MedMNIST cross-domain (ResNet-18, n=20)",
+      "files": {
+        "pattern": "medmnist/{dataset}/{init}/{dataset}_resnet18_{init}_s*_results.json",
+        "datasets": ["bloodmnist", "breastmnist", "chestmnist", "dermamnist", "organcmnist", "pathmnist", "retinamnist"],
+        "inits": ["dct", "kaiming"],
+        "golden_pattern": "medmnist/{dataset}/{init}/{dataset}_resnet18_{init}_golden_results.json"
+      },
+      "file_count": 294,
+      "note": "20 seeds + 1 golden per dataset/init = 21 each, 7 datasets x 2 inits = 294"
+    },
+    "table_8_crossdataset": {
+      "label": "tab:crossdataset",
+      "title": "Cross-dataset generalization (AFDB, CPSC2018, Chapman)",
+      "files": {
+        "conformer": "ecg/crossdataset/crossdataset_results_conformer.json",
+        "baseline": "ecg/crossdataset/crossdataset_results_baseline.json",
+        "combined": "ecg/crossdataset/crossdataset_results.json",
+        "cpsc_chapman": "ecg/crossdataset/crossdataset_cpsc_chapman_results.json"
+      },
+      "file_count": 5
+    },
+    "table_9_cv": {
+      "label": "tab:cv",
+      "title": "3-fold cross-validation",
+      "files": {
+        "cv_results": "ecg/cv/cv_final_results.json",
+        "cv_golden": "ecg/cv/cv_conformer_gold_results.json"
+      },
+      "file_count": 3
+    },
+    "table_a1_cifar100": {
+      "label": "tab:cifar",
+      "title": "CIFAR-100 (Appendix, ResNet-18, n=20)",
+      "files": {
+        "dct_20": "cifar100/cifar_cifar100_dct_s*_results.json",
+        "kaiming_20": "cifar100/cifar_cifar100_kaiming_s*_results.json"
+      },
+      "file_count": 40
+    },
+    "table_a2_noise": {
+      "label": "tab:noise",
+      "title": "Noise robustness (Appendix)",
+      "files": {
+        "noise_trained": "noise/noise_trained_metrics.json"
+      },
+      "file_count": 1,
+      "gaps": ["Per-seed noise results not retained; only summary stats available"]
+    },
+    "table_a3_batch": {
+      "label": "tab:batch",
+      "title": "Batch ordering strategies (Appendix)",
+      "files": {
+        "pattern": "batch_ordering/bo_*_{metrics,log}.json",
+        "strategies": ["golden", "seeded", "class_guaranteed", "stratified", "content_hash", "class_diverse", "feature_space", "grad_balance", "herding", "sobol", "interleaved", "cg_golden"]
+      },
+      "file_count": 23
+    }
+  },
+
+  "figures": {
+    "figure_1_method": {
+      "label": "fig:method",
+      "title": "DCT basis matrix + convergence curves",
+      "files": {
+        "mixed_metrics": "ecg/conformer_mixed/conformer_ms_s*_metrics.json",
+        "kaiming_metrics": "ecg/conformer_kaiming/conformer_kaiming_s*_metrics.json"
+      },
+      "note": "Convergence curves require _log.json files (not included; available in source repos)"
+    },
+    "figure_2_perclass": {
+      "label": "fig:perclass",
+      "title": "Per-class AUC box plots (Conformer n=20)",
+      "files": {
+        "mixed_metrics": "ecg/conformer_mixed/conformer_ms_s*_metrics.json",
+        "kaiming_metrics": "ecg/conformer_kaiming/conformer_kaiming_s*_metrics.json",
+        "golden": "ecg/golden/conformer_combined_golden_metrics.json"
+      }
+    },
+    "figure_3_chestmnist": {
+      "label": "fig:chestmnist",
+      "title": "ChestMNIST per-class AUC (n=20)",
+      "files": {
+        "dct": "medmnist/chestmnist/dct/chestmnist_resnet18_dct_s*_results.json",
+        "kaiming": "medmnist/chestmnist/kaiming/chestmnist_resnet18_kaiming_s*_results.json"
+      }
+    },
+    "figure_4_cv_crossdataset": {
+      "label": "fig:cv",
+      "title": "CV bar chart + cross-dataset AFIB AUC",
+      "files": "Same as tables 8 and 9"
+    },
+    "figure_a1_dct_theory": {
+      "label": "fig:dct_theory",
+      "title": "DCT theory (energy capture, condition number)",
+      "files": "Analytically generated, no empirical data"
+    }
+  },
+
+  "supplementary": {
+    "basis_golden": {
+      "title": "Golden per-basis results (ECG + MedMNIST)",
+      "files": "basis_golden/*_golden_{metrics,results}.json",
+      "file_count": 17
+    },
+    "ecg_n20_baselines": {
+      "title": "Extended n=20 baseline runs (from Thor)",
+      "files": {
+        "baseline_dct": "ecg_n20/baseline_dct_s*_metrics.json",
+        "baseline_kaiming": "ecg_n20/baseline_kaiming_s*_metrics.json"
+      },
+      "file_count": 40
+    },
+    "ood": {
+      "title": "Out-of-distribution detection",
+      "files": {
+        "ood_2x2_golden": "ood/ood_2x2_golden_results.json",
+        "ood_basis_5seed": "ood/ood_basis_5seed_results.json",
+        "ood_comparison": "ood/ood_comparison.json"
+      },
+      "file_count": 3
+    },
+    "spatial": {
+      "title": "GradCAM spatial stability",
+      "files": {
+        "spatial_stability": "spatial/spatial_stability_results.json",
+        "spatial_results": "spatial/spatial_results.json",
+        "probe": "spatial/probe_results.json"
+      },
+      "file_count": 3
+    }
+  },
+
+  "source_mapping": {
+    "ecg/conformer_mixed": "ecg/conformer_ms_s*_metrics.json",
+    "ecg/conformer_kaiming": "ecg/conformer_kaiming_s*_metrics.json",
+    "ecg/baseline_dct": "ecg/baseline_fulldet_bs*_metrics.json",
+    "ecg/baseline_kaiming": "ecg/baseline_kaiming_s*_metrics.json",
+    "ecg/golden": "ecg/conformer_combined_golden_metrics.json",
+    "ecg/xresnet": "paper/review/aim2/evidence/thor_ecg_evidence/xresnet_equiv_s*_metrics.json",
+    "ecg/cv": "paper/review/aim2/evidence/thor_ecg_evidence/cv_*.json",
+    "ecg/crossdataset": "paper/review/aim2/evidence/thor_ecg_evidence/crossdataset_*.json",
+    "ecg_n20": "paper/review/aim2/evidence/thor_basis/baseline_{dct,kaiming}_s*_metrics.json",
+    "basis_comparison": "paper/review/aim2/evidence/vastai_basis/conformer_*_s*_metrics.json",
+    "basis_golden": "paper/review/aim2/evidence/golden_basis/*_golden_metrics.json",
+    "medmnist": "paper/review/aim2/evidence/medmnist/{dataset}_resnet18_{init}_*_results.json",
+    "cifar100": "ecg/cifar100_results/cifar_cifar100_*_results.json",
+    "batch_ordering": "paper/review/aim2/evidence/thor_ecg_evidence/bo_*.json",
+    "noise": "ecg/noise_trained_metrics.json",
+    "ood": "paper/review/aim2/evidence/ood_*.json + thor_ecg_evidence/ood_comparison.json",
+    "spatial": "paper/review/aim2/evidence/thor_ecg_evidence/{spatial,probe}_*.json"
+  }
+}

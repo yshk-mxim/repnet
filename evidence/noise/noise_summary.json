@@ -1,0 +1,42 @@
+{
+  "dct": {
+    "clean_mean": 0.9507,
+    "clean_std": 0.0041,
+    "baseline_wander_drop_mean": 0.0543,
+    "baseline_wander_drop_std": 0.0078,
+    "muscle_artifact_real_drop_mean": 0.0629,
+    "muscle_artifact_real_drop_std": 0.0153,
+    "electrode_motion_drop_mean": 0.091,
+    "electrode_motion_drop_std": 0.0153
+  },
+  "hadamard": {
+    "clean_mean": 0.9566,
+    "clean_std": 0.0071,
+    "baseline_wander_drop_mean": 0.0407,
+    "baseline_wander_drop_std": 0.0169,
+    "muscle_artifact_real_drop_mean": 0.0455,
+    "muscle_artifact_real_drop_std": 0.0202,
+    "electrode_motion_drop_mean": 0.0696,
+    "electrode_motion_drop_std": 0.0195
+  },
+  "hartley": {
+    "clean_mean": 0.9589,
+    "clean_std": 0.003,
+    "baseline_wander_drop_mean": 0.0334,
+    "baseline_wander_drop_std": 0.0109,
+    "muscle_artifact_real_drop_mean": 0.0346,
+    "muscle_artifact_real_drop_std": 0.009,
+    "electrode_motion_drop_mean": 0.0572,
+    "electrode_motion_drop_std": 0.017
+  },
+  "sinusoidal": {
+    "clean_mean": 0.9509,
+    "clean_std": 0.0054,
+    "baseline_wander_drop_mean": 0.05,
+    "baseline_wander_drop_std": 0.0099,
+    "muscle_artifact_real_drop_mean": 0.0628,
+    "muscle_artifact_real_drop_std": 0.0187,
+    "electrode_motion_drop_mean": 0.0635,
+    "electrode_motion_drop_std": 0.0166
+  }
+}

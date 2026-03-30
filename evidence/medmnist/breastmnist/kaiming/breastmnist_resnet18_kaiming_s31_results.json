@@ -1,0 +1,20 @@
+{
+  "dataset": "breastmnist",
+  "arch": "resnet18",
+  "init": "kaiming",
+  "seed": 31,
+  "bn_dim": null,
+  "num_classes": 2,
+  "best_acc": 0.859,
+  "best_auc": 0.8736,
+  "per_class_auc": [
+    0.8736,
+    0.8736
+  ],
+  "batch_order": "seeded",
+  "best_ep": 160,
+  "params": 11168706,
+  "init_md5": "0ca8d2c59533e24c144b3e02d3255338",
+  "final_md5": "c3d898e4f63b42282ea593e875faeb0b",
+  "time": 171.9
+}

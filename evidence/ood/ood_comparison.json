@@ -1,0 +1,39 @@
+{
+  "best_combined_best.pt": {
+    "emi": {
+      "max_logit": 0.7315,
+      "entropy": 0.8795,
+      "energy": 0.706,
+      "bn_norm": 0.3696,
+      "ood_proj": 0.2397
+    },
+    "gaussian": {
+      "max_logit": 0.7239,
+      "entropy": 0.9418,
+      "energy": 0.6767,
+      "bn_norm": 0.1578,
+      "ood_proj": 0.0774
+    },
+    "muscle_artifact": {
+      "max_logit": 0.4639,
+      "entropy": 0.9028,
+      "energy": 0.4552,
+      "bn_norm": 0.1099,
+      "ood_proj": 0.0403
+    },
+    "flat": {
+      "max_logit": 0.9763,
+      "entropy": 0.9837,
+      "energy": 0.9155,
+      "bn_norm": 0.0131,
+      "ood_proj": 0.0487
+    },
+    "corrupted_ecg": {
+      "max_logit": 0.5507,
+      "entropy": 0.9544,
+      "energy": 0.4962,
+      "bn_norm": 0.082,
+      "ood_proj": 0.04
+    }
+  }
+}

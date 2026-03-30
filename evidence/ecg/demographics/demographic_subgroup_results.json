@@ -1,0 +1,120 @@
+{
+  "per_seed": [
+    {
+      "macro_auc_all": 0.9567,
+      "macro_auc_male": 0.9493,
+      "macro_auc_female": NaN,
+      "male_minus_female": NaN,
+      "model": "conformer_dct_s123"
+    },
+    {
+      "macro_auc_all": 0.952,
+      "macro_auc_male": 0.9558,
+      "macro_auc_female": NaN,
+      "male_minus_female": NaN,
+      "model": "conformer_dct_s1337"
+    },
+    {
+      "macro_auc_all": 0.9626,
+      "macro_auc_male": 0.9602,
+      "macro_auc_female": NaN,
+      "male_minus_female": NaN,
+      "model": "conformer_dct_s2"
+    },
+    {
+      "macro_auc_all": 0.9575,
+      "macro_auc_male": 0.9498,
+      "macro_auc_female": NaN,
+      "male_minus_female": NaN,
+      "model": "conformer_dct_s29"
+    },
+    {
+      "macro_auc_all": 0.9555,
+      "macro_auc_male": 0.9557,
+      "macro_auc_female": NaN,
+      "male_minus_female": NaN,
+      "model": "conformer_dct_s3"
+    },
+    {
+      "macro_auc_all": 0.9609,
+      "macro_auc_male": 0.9619,
+      "macro_auc_female": NaN,
+      "male_minus_female": NaN,
+      "model": "conformer_dct_s31"
+    },
+    {
+      "macro_auc_all": 0.9594,
+      "macro_auc_male": 0.9559,
+      "macro_auc_female": NaN,
+      "male_minus_female": NaN,
+      "model": "conformer_dct_s37"
+    },
+    {
+      "macro_auc_all": 0.9534,
+      "macro_auc_male": 0.9553,
+      "macro_auc_female": NaN,
+      "male_minus_female": NaN,
+      "model": "conformer_dct_s41"
+    },
+    {
+      "macro_auc_all": 0.9441,
+      "macro_auc_male": 0.946,
+      "macro_auc_female": NaN,
+      "male_minus_female": NaN,
+      "model": "conformer_dct_s42"
+    },
+    {
+      "macro_auc_all": 0.9556,
+      "macro_auc_male": 0.9519,
+      "macro_auc_female": NaN,
+      "male_minus_female": NaN,
+      "model": "conformer_dct_s43"
+    },
+    {
+      "macro_auc_all": 0.9503,
+      "macro_auc_male": 0.9475,
+      "macro_auc_female": NaN,
+      "male_minus_female": NaN,
+      "model": "conformer_dct_s456"
+    },
+    {
+      "macro_auc_all": 0.9598,
+      "macro_auc_male": 0.9544,
+      "macro_auc_female": NaN,
+      "male_minus_female": NaN,
+      "model": "conformer_dct_s47"
+    },
+    {
+      "macro_auc_all": 0.9503,
+      "macro_auc_male": 0.9516,
+      "macro_auc_female": NaN,
+      "male_minus_female": NaN,
+      "model": "conformer_dct_s789"
+    },
+    {
+      "macro_auc_all": 0.9592,
+      "macro_auc_male": 0.9579,
+      "macro_auc_female": NaN,
+      "male_minus_female": NaN,
+      "model": "conformer_dct_golden"
+    },
+    {
+      "macro_auc_all": 0.928,
+      "macro_auc_male": 0.9393,
+      "macro_auc_female": NaN,
+      "male_minus_female": NaN,
+      "model": "conformer_kaiming_golden"
+    }
+  ],
+  "n_seeds": 13,
+  "male_mean": 0.9535,
+  "male_std": 0.0045,
+  "female_mean": NaN,
+  "female_std": NaN,
+  "diff_mean": NaN,
+  "diff_std": NaN,
+  "diff_ci95": [
+    NaN,
+    NaN
+  ]
+}

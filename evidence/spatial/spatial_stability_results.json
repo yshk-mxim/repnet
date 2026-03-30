@@ -1,0 +1,83 @@
+{
+  "sample_42_AFIB": {
+    "mean_xresnet_similarity": 0.9667,
+    "pairwise_similarities": [
+      0.9857,
+      0.9812,
+      0.9777,
+      0.9355,
+      0.9808,
+      0.9909,
+      0.9344,
+      0.9835,
+      0.9662,
+      0.9313
+    ],
+    "n_seeds": 5
+  },
+  "sample_61_AFIB": {
+    "mean_xresnet_similarity": 0.9284,
+    "pairwise_similarities": [
+      0.9775,
+      0.9907,
+      0.9845,
+      0.8563,
+      0.9757,
+      0.9675,
+      0.8742,
+      0.9836,
+      0.84,
+      0.8338
+    ],
+    "n_seeds": 5
+  },
+  "sample_112_STACH": {
+    "mean_xresnet_similarity": 0.9885,
+    "pairwise_similarities": [
+      0.992,
+      0.9949,
+      0.9943,
+      0.9823,
+      0.9872,
+      0.9903,
+      0.9856,
+      0.994,
+      0.977,
+      0.9873
+    ],
+    "n_seeds": 5
+  },
+  "sample_34_SBRAD": {
+    "mean_xresnet_similarity": 0.961,
+    "pairwise_similarities": [
+      0.9732,
+      0.9911,
+      0.9888,
+      0.9199,
+      0.9754,
+      0.9766,
+      0.9422,
+      0.9863,
+      0.9327,
+      0.9233
+    ],
+    "n_seeds": 5
+  },
+  "sample_50_PACE": {
+    "mean_xresnet_similarity": 0.0,
+    "pairwise_similarities": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "n_seeds": 5
+  },
+  "overall_mean_similarity": 0.7689
+}

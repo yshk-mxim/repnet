@@ -1,0 +1,32 @@
+{
+  "dataset": "chestmnist",
+  "arch": "resnet18",
+  "init": "dct",
+  "seed": 17,
+  "bn_dim": null,
+  "num_classes": 14,
+  "best_acc": 0.5334,
+  "best_auc": 0.7608,
+  "per_class_auc": [
+    0.7627,
+    0.8741,
+    0.8439,
+    0.6713,
+    0.7505,
+    0.6623,
+    0.7009,
+    0.8092,
+    0.7796,
+    0.866,
+    0.7948,
+    0.737,
+    0.7137,
+    0.6846
+  ],
+  "batch_order": "seeded",
+  "best_ep": 90,
+  "params": 11174862,
+  "init_md5": "21b007019c59871ce15d990bc6d9bcf7",
+  "final_md5": "76ba46fa7df48a995f1d31d22482c062",
+  "time": 6899.4
+}

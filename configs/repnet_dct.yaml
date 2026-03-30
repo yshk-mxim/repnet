@@ -1,0 +1,43 @@
+# RepNet V9H + DCT initialization (morphable training)
+#
+# Bottleneck ResNet with MorphedLayerNorm1d, trained with Phase 1 (linear, t=0)
+# followed by Phase 3a (gradual morphing to nonlinear, t=0->1).
+# DCT conv init + ETF head init + Fixup zero-conv3.
+#
+# Expected: ~0.935 macro AUC on PTB-XL rhythm classification
+
+name: v9h_dct
+model: v9h
+
+# Architecture
+base_ch: 64
+ks: 5
+blocks: "3,4,23,3"
+bn_dim: 14           # K+2 = 12 classes + 2 extra dimensions
+pad_skip: true        # Deterministic skip connection pooling
+
+# Initialization
+det_init: true        # DCT initialization (seed-free)
+etf_init: true        # ETF classifier head initialization
+fixup_scale: 0.0      # Zero conv3 in residual branches (Fixup)
+
+# Training — morphable
+no_morph: false
+epochs_p1: 15         # Phase 1: linear training (t=0)
+epochs_p3: 70         # Phase 3a: morphing + fine-tuning
+morph_ep: 10          # Epochs to morph from t=0 to t=1
+lr: 3e-4
+bs: 128
+seed: 42
+
+# Regularization
+sign_weight: 0.0      # Sign constraint (set >0 for interpretability)
+nuclear_weight: 0.0
+
+# Determinism
+bf16: false
+cudnn_bench: false
+
+# Loss
+class_weight: ""
+focal_gamma: 0.0
